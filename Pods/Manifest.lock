@@ -1,0 +1,25 @@
+PODS:
+  - Pantomime (0.1.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Pantomime (from `https://github.com/inickt/Pantomime.git`, branch `master`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Pantomime:
+    :branch: master
+    :git: https://github.com/inickt/Pantomime.git
+
+CHECKOUT OPTIONS:
+  Pantomime:
+    :commit: be741c901b3e2f02542a4789777b390023546cd4
+    :git: https://github.com/inickt/Pantomime.git
+
+SPEC CHECKSUMS:
+  Pantomime: 2aec2b603b91f6d5a4774ecce9c0ed073d3b4e5d
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: a0e0f94172b8a01077c09e1513acf1a1049bab7c
+
+COCOAPODS: 1.4.0

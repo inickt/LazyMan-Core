@@ -1,0 +1,6 @@
+framework module Pods_LazyMan_Core_tvOS {
+  umbrella header "Pods-LazyMan Core tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pantomime {
+  umbrella header "Pantomime-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

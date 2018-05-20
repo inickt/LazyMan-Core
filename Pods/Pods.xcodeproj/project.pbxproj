@@ -1,0 +1,1740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043A07C9BD3E676AD6CF07869D34C318 /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BEE40A17D1DD8A8D9C77D7BD4D42D0 /* BufferedReader.swift */; };
+		0B991BD71A841048E21FFCBB73048966 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE7A0DB1B86F123CD6EAE1AB6D63CF /* MediaPlaylist.swift */; };
+		0D461AB97A910B72045C4847076E474B /* Pantomime-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393F6A00F7ED49A29945D16BC51FEC0 /* Pantomime-tvOS-dummy.m */; };
+		14599C2FB3139742C1E44B80F08AFA13 /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68EFC0F4851E943C32A286A3377A5A5 /* NSURLExtension.swift */; };
+		17C688B753F7600E8525771FE0AF7DF2 /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674ACC2D184396172148EE3476BD6C45 /* ReaderBuilder.swift */; };
+		1D0B67374F6D3F52FB6B1C77A989B437 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163ABB78C7D2A587951B6EB19DDC920 /* MediaSegment.swift */; };
+		22C98F5B65DBF9017080094F6FF11250 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B80E690BA03532FCC90C892C432E30C /* SwiftyJSON.swift */; };
+		2642A76FCA58952FCF59C5C5A96A4A52 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86BD6A5505BF6E56726255822D13CA /* StringExtensions.swift */; };
+		28C1892BC703E9FCB4FF503EE6F58ECE /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86BD6A5505BF6E56726255822D13CA /* StringExtensions.swift */; };
+		2DD93FD70D9336CF4454835881A7D83D /* SwiftyJSON-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49486BDE3C68EAF429102BC0E9B344FC /* SwiftyJSON-macOS-dummy.m */; };
+		3B2904B9FB681C105C5611EF6F9E0CE6 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24044B29F1512D14901226881D6D0E7A /* URLBufferedReader.swift */; };
+		3D89D62D95FFB905B47B0A50DD0C3348 /* SwiftyJSON-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E34375D1126D53B8F7470AD2FF5DE1 /* SwiftyJSON-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAA57B9675A68A5BA8E6ED90D3CD689 /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED69E8AD32212453F3363725862EB26 /* StringBufferedReader.swift */; };
+		4125135C6D903A9872EA8AFDE7EF2AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A88E0776EAF5001831CAEFF93C9A0 /* Foundation.framework */; };
+		41C6B2784A1AD000C0667756A994B214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461AAFB7A771BCEC6E4E09204991FB5 /* Foundation.framework */; };
+		432C485C4F7C32D031E0B8DFAA82C8E5 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24044B29F1512D14901226881D6D0E7A /* URLBufferedReader.swift */; };
+		51910ADF9C2E2FAE12B59DCF8090DBBA /* Pantomime-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD9113350CCB834AC613BA2004B2458 /* Pantomime-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		542777C053FAB4DEF2B73D78D1F1B32F /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163ABB78C7D2A587951B6EB19DDC920 /* MediaSegment.swift */; };
+		59740F66C07679249CE3DEA80DC9F7EC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86BD6A5505BF6E56726255822D13CA /* StringExtensions.swift */; };
+		5A973D508F8B6B6E543C31F1078356B3 /* SwiftyJSON-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E15A81C618DCCE2D9412EE2E6EC5530F /* SwiftyJSON-tvOS-dummy.m */; };
+		5AB00A15111BC63E71BBE9DB5B703A67 /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A57E47D718C8A3786CC7DBF653F61 /* FileBufferedReader.swift */; };
+		5BA9004AB08BC180AD581395A254AD7D /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BEE40A17D1DD8A8D9C77D7BD4D42D0 /* BufferedReader.swift */; };
+		62B123418913D9EAC777A75F0F070898 /* Pods-LazyMan Core iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 439017024A4D1B50C4F2A5C234A688D7 /* Pods-LazyMan Core iOS-dummy.m */; };
+		6A10A1AEC703F38E6731A0F0E3E84853 /* SwiftyJSON-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09548C533B9D26D6C4AAD6202E84D829 /* SwiftyJSON-iOS-dummy.m */; };
+		6C768C35B75E86E785FF068ABC9A94BB /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E399158FD8BD093A0E08F4AEDD0D5A4 /* MasterPlaylist.swift */; };
+		6DF929DC7BF60545F47202D25DC1CAAB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B80E690BA03532FCC90C892C432E30C /* SwiftyJSON.swift */; };
+		6F27DE8A32496B7427E14D18D70E5381 /* Pantomime-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA41DE4E2260E1D8923A4737D062E7F /* Pantomime-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2E8798DECAF1BCFE6CCC066B02EA58 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B80E690BA03532FCC90C892C432E30C /* SwiftyJSON.swift */; };
+		7013C3D6FC47D737374669758C7B0850 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48233FC070FA1CADC1C3A92C3D3948A1 /* Cocoa.framework */; };
+		70BDBF949BE1A5747388889D60829BD5 /* Pods-LazyMan Core tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773DF91EA819EE4A15C4B293E8CA81CF /* Pods-LazyMan Core tvOS-dummy.m */; };
+		7275D731288F38744595607CBC10C88F /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED69E8AD32212453F3363725862EB26 /* StringBufferedReader.swift */; };
+		7F5EA3DC141C44284F72F4ABB2AA86CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461AAFB7A771BCEC6E4E09204991FB5 /* Foundation.framework */; };
+		83E6E3F02531659E47FE108CE03E6DBD /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483842566D9058373C40F15AF96AC8F /* ManifestBuilder.swift */; };
+		93A91768E3E51B62D3C8143FB9369C7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48233FC070FA1CADC1C3A92C3D3948A1 /* Cocoa.framework */; };
+		95F8BAE46630169D3A0E273858E76D8C /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB69275434EF44C82E1F190334B0327 /* StreamReader.swift */; };
+		9614F90CE911F6DFAFE46676A61EAB9B /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A57E47D718C8A3786CC7DBF653F61 /* FileBufferedReader.swift */; };
+		9962ECD77EBE2A0A29CD1B28D0500EE0 /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BEE40A17D1DD8A8D9C77D7BD4D42D0 /* BufferedReader.swift */; };
+		9A57BA2D39EB9B639B08DF766E59DCC0 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163ABB78C7D2A587951B6EB19DDC920 /* MediaSegment.swift */; };
+		9C49D0557A6EBE1DC2B0CE6039C30C54 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB69275434EF44C82E1F190334B0327 /* StreamReader.swift */; };
+		A63618F548D1F3BD35981D2D1E563E30 /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A57E47D718C8A3786CC7DBF653F61 /* FileBufferedReader.swift */; };
+		A75A7DCED2762ACC1711A54C029A5FC2 /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68EFC0F4851E943C32A286A3377A5A5 /* NSURLExtension.swift */; };
+		AE3FBAE73FC38A9494347EBD681D28A1 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE7A0DB1B86F123CD6EAE1AB6D63CF /* MediaPlaylist.swift */; };
+		AF571634AEDFAF10B4A6F82769612F81 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24044B29F1512D14901226881D6D0E7A /* URLBufferedReader.swift */; };
+		AFA3F2742AAA2C2080AF9D3FA1D603B5 /* SwiftyJSON-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D21C1AC1050D3620F47DB76861B6C0DF /* SwiftyJSON-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE4AE8D825F504CBD40746DF83E9587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A88E0776EAF5001831CAEFF93C9A0 /* Foundation.framework */; };
+		B3F1492EFEDB3D73877C464FD7F972D5 /* SwiftyJSON-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 167D99A92B540FC505BE9FF5E2F2773B /* SwiftyJSON-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCCD325CF4BE5D157285E6A40F6CFF56 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48233FC070FA1CADC1C3A92C3D3948A1 /* Cocoa.framework */; };
+		BD5DF47C87E0B1E61D1A441579908ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461AAFB7A771BCEC6E4E09204991FB5 /* Foundation.framework */; };
+		C4BD8AEFB0EF4C0E486B2FE6D0D0551E /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE7A0DB1B86F123CD6EAE1AB6D63CF /* MediaPlaylist.swift */; };
+		CDB68121E4DDEFC69FF9C34CF07592D9 /* Pods-LazyMan Core macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7557596C4A744A8FF77B584267F1C254 /* Pods-LazyMan Core macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE3FDE42E553D91F87B0190C3C581701 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E399158FD8BD093A0E08F4AEDD0D5A4 /* MasterPlaylist.swift */; };
+		D167D4A4FF8B7C94ACB80DCD3ABF2C8B /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674ACC2D184396172148EE3476BD6C45 /* ReaderBuilder.swift */; };
+		D37FE1AA11C9D726EB8F1D8A9B8F7F7D /* Pantomime-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CB9725505B43FDBC6016ABB1F20D16 /* Pantomime-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAADF416C9894449B60E24F901B7DD78 /* Pantomime-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF22EE95402AA96092F11B712B7E863 /* Pantomime-macOS-dummy.m */; };
+		DB50C0B20E7EC65AF7B2943DDCF1C4EF /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674ACC2D184396172148EE3476BD6C45 /* ReaderBuilder.swift */; };
+		DC631E5DD67B28CD6CCD4AA77545C768 /* Pods-LazyMan Core iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCD1BD5B212DF32B161259DDB93137D /* Pods-LazyMan Core iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B4C403146463ABDC87C3C87BFA5FD3 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E399158FD8BD093A0E08F4AEDD0D5A4 /* MasterPlaylist.swift */; };
+		E24269A3EB0B6E68A4184FE5AE3B20C7 /* Pods-LazyMan Core tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAB48F13E2CD1BC2999224979023D45 /* Pods-LazyMan Core tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E272882839E4F65FE4A51EB6DD01D0E3 /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED69E8AD32212453F3363725862EB26 /* StringBufferedReader.swift */; };
+		E2BBF18610BDF0AC982ADAF9B992EB8F /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68EFC0F4851E943C32A286A3377A5A5 /* NSURLExtension.swift */; };
+		E65D7C7B4487EEB7A9695D5938E2F527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A88E0776EAF5001831CAEFF93C9A0 /* Foundation.framework */; };
+		EC19C835D9ED32E13EB2FF979CEC674E /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483842566D9058373C40F15AF96AC8F /* ManifestBuilder.swift */; };
+		EEF6507B775F716FBCF58F3345FDF8A9 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB69275434EF44C82E1F190334B0327 /* StreamReader.swift */; };
+		F3527BB35CC2984B7AEEF3C19DA052B8 /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483842566D9058373C40F15AF96AC8F /* ManifestBuilder.swift */; };
+		FB3E8E2732F58B1D995B8A860C03A1BC /* Pantomime-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4EDBDDBE4F0036410AB2966AE4B3E /* Pantomime-iOS-dummy.m */; };
+		FD262E7BDC7849ED918341C5833C109B /* Pods-LazyMan Core macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A83AEE0F18F75DF7228D5489B253B1CA /* Pods-LazyMan Core macOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01388BAC71A580A654F2412BE8A2917A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FB5D6D9EA6EECD5A7875B334183424;
+			remoteInfo = "SwiftyJSON-macOS";
+		};
+		205BE44DCC1A8AC4F8493552F560851D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6ABFDB7405B7FA9F185BE67F2C30B8;
+			remoteInfo = "Pantomime-tvOS";
+		};
+		9C7EC7989ACB5FD8A24FA322B48D13C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3F4DDC6CAA5B0B10C0C631953CED75;
+			remoteInfo = "Pantomime-iOS";
+		};
+		9EF69053F6BC0D2B11A477129A0CF1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9495E3198EB6538B4DA07916EA157E08;
+			remoteInfo = "Pantomime-macOS";
+		};
+		DFFCB9AB20776EDF9CC30D301BF36631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548884AAB7EB4472FB1F0FAED128B3DF;
+			remoteInfo = "SwiftyJSON-tvOS";
+		};
+		E046678E76CAD7AEBA16CDB00BCE7DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E59693963E99080AC7F1B847458258F;
+			remoteInfo = "SwiftyJSON-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01850B58DF643C241F4556F372914EB2 /* Pods-LazyMan Core tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LazyMan Core tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		028AE46E5B46559734C0BB874716D4B8 /* SwiftyJSON-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-iOS-prefix.pch"; sourceTree = "<group>"; };
+		06BEE40A17D1DD8A8D9C77D7BD4D42D0 /* BufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BufferedReader.swift; path = sources/BufferedReader.swift; sourceTree = "<group>"; };
+		06E73CAE969E2B37AA6731DD132EBD25 /* SwiftyJSON-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftyJSON-tvOS.modulemap"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS.modulemap"; sourceTree = "<group>"; };
+		07FFFF354B57A0EE99BE79043F42536A /* Pods-LazyMan Core tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyMan Core tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		09548C533B9D26D6C4AAD6202E84D829 /* SwiftyJSON-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-iOS-dummy.m"; sourceTree = "<group>"; };
+		0B80E690BA03532FCC90C892C432E30C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		0CE33F99A34CC3B886B6E139A99534CB /* Pods-LazyMan Core iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LazyMan Core iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EB889DC63DBD8F66664258D413655FA /* Pods-LazyMan Core macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LazyMan Core macOS-resources.sh"; sourceTree = "<group>"; };
+		15CB9725505B43FDBC6016ABB1F20D16 /* Pantomime-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pantomime-macOS-umbrella.h"; path = "../Pantomime-macOS/Pantomime-macOS-umbrella.h"; sourceTree = "<group>"; };
+		167D99A92B540FC505BE9FF5E2F2773B /* SwiftyJSON-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-tvOS-umbrella.h"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		22AA3AB9AFCE772A5FC54FAA3BF3717E /* Pods-LazyMan Core tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LazyMan Core tvOS-resources.sh"; sourceTree = "<group>"; };
+		24044B29F1512D14901226881D6D0E7A /* URLBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLBufferedReader.swift; path = sources/URLBufferedReader.swift; sourceTree = "<group>"; };
+		25F6CDE76EEC8E8623884E3505350825 /* Pantomime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pantomime.framework; path = "Pantomime-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7C7F27CDDCCDE26315D5B75C447517 /* Pantomime-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pantomime-tvOS.xcconfig"; path = "../Pantomime-tvOS/Pantomime-tvOS.xcconfig"; sourceTree = "<group>"; };
+		35F70D19ECB8F5F5FC4FA45BBE38BD18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pantomime-tvOS/Info.plist"; sourceTree = "<group>"; };
+		3B4C1842B29C92384689A021272F2791 /* Pods-LazyMan Core tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyMan Core tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3C796154EF8039DAEB17968D8FC55368 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDFD9B020DAD3778D4473E7909E11B4 /* Pantomime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pantomime.framework; path = "Pantomime-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1198E4DE2EBC4D42293CCEF802A66E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pantomime-macOS/Info.plist"; sourceTree = "<group>"; };
+		3FA41DE4E2260E1D8923A4737D062E7F /* Pantomime-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pantomime-iOS-umbrella.h"; sourceTree = "<group>"; };
+		42A15560403C9EA88C4252BF881C475D /* Pods_LazyMan_Core_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LazyMan_Core_tvOS.framework; path = "Pods-LazyMan Core tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439017024A4D1B50C4F2A5C234A688D7 /* Pods-LazyMan Core iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LazyMan Core iOS-dummy.m"; sourceTree = "<group>"; };
+		45E29E617B1DB3AFDDAB9E4E47F69858 /* Pantomime-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pantomime-macOS-prefix.pch"; path = "../Pantomime-macOS/Pantomime-macOS-prefix.pch"; sourceTree = "<group>"; };
+		48233FC070FA1CADC1C3A92C3D3948A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		49486BDE3C68EAF429102BC0E9B344FC /* SwiftyJSON-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftyJSON-macOS-dummy.m"; path = "../SwiftyJSON-macOS/SwiftyJSON-macOS-dummy.m"; sourceTree = "<group>"; };
+		4A7A57E47D718C8A3786CC7DBF653F61 /* FileBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileBufferedReader.swift; path = sources/FileBufferedReader.swift; sourceTree = "<group>"; };
+		4E399158FD8BD093A0E08F4AEDD0D5A4 /* MasterPlaylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterPlaylist.swift; path = sources/MasterPlaylist.swift; sourceTree = "<group>"; };
+		503E403F4ADCA7077A65AF0E4156E388 /* Pantomime-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pantomime-tvOS-prefix.pch"; path = "../Pantomime-tvOS/Pantomime-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		51DC9BA03F838BFA7B3C450875497462 /* Pods-LazyMan Core tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LazyMan Core tvOS.modulemap"; sourceTree = "<group>"; };
+		5483842566D9058373C40F15AF96AC8F /* ManifestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManifestBuilder.swift; path = sources/ManifestBuilder.swift; sourceTree = "<group>"; };
+		56F0300EA831D998F95733C27B128F60 /* Pantomime-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pantomime-iOS-prefix.pch"; sourceTree = "<group>"; };
+		5C8FD72FF96CF4259D83BF241C6C40B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB69275434EF44C82E1F190334B0327 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = sources/StreamReader.swift; sourceTree = "<group>"; };
+		6347F0F88E27188DE693E59A72F07720 /* SwiftyJSON-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftyJSON-tvOS.xcconfig"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS.xcconfig"; sourceTree = "<group>"; };
+		6393F6A00F7ED49A29945D16BC51FEC0 /* Pantomime-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pantomime-tvOS-dummy.m"; path = "../Pantomime-tvOS/Pantomime-tvOS-dummy.m"; sourceTree = "<group>"; };
+		672C69BE3F9796523F6A92DA4D021E44 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = "SwiftyJSON-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		674ACC2D184396172148EE3476BD6C45 /* ReaderBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderBuilder.swift; path = sources/ReaderBuilder.swift; sourceTree = "<group>"; };
+		68A2CBDFCAAEA7184D2659A64529EE6A /* Pantomime-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Pantomime-macOS.modulemap"; path = "../Pantomime-macOS/Pantomime-macOS.modulemap"; sourceTree = "<group>"; };
+		68D39024C348F46B1ECD31B054CB9495 /* Pods-LazyMan Core iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LazyMan Core iOS-resources.sh"; sourceTree = "<group>"; };
+		6E86BD6A5505BF6E56726255822D13CA /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = sources/StringExtensions.swift; sourceTree = "<group>"; };
+		6EB4C3834BC48BF1E6B68D8042C1E4AF /* Pantomime-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pantomime-iOS.xcconfig"; sourceTree = "<group>"; };
+		70BE7A0DB1B86F123CD6EAE1AB6D63CF /* MediaPlaylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaPlaylist.swift; path = sources/MediaPlaylist.swift; sourceTree = "<group>"; };
+		7231639B075DBCC475F41D3B151EE387 /* Pods_LazyMan_Core_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LazyMan_Core_macOS.framework; path = "Pods-LazyMan Core macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461AAFB7A771BCEC6E4E09204991FB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7557596C4A744A8FF77B584267F1C254 /* Pods-LazyMan Core macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LazyMan Core macOS-umbrella.h"; sourceTree = "<group>"; };
+		773DF91EA819EE4A15C4B293E8CA81CF /* Pods-LazyMan Core tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LazyMan Core tvOS-dummy.m"; sourceTree = "<group>"; };
+		773F610F170AA14E308523928A32156A /* Pantomime-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pantomime-macOS.xcconfig"; path = "../Pantomime-macOS/Pantomime-macOS.xcconfig"; sourceTree = "<group>"; };
+		7CCB0356EFE865A2FA25AA012EDD1E67 /* Pantomime-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pantomime-iOS.modulemap"; sourceTree = "<group>"; };
+		7F14005AD3F7A16EC576647E631D7C10 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = "SwiftyJSON-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875DEA36DD89BB0FD9F48A9DCEF90B7A /* Pods-LazyMan Core macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LazyMan Core macOS.modulemap"; sourceTree = "<group>"; };
+		8B4E5B48359CD779F5A8C5F55E0EF12A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = "SwiftyJSON-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF22EE95402AA96092F11B712B7E863 /* Pantomime-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pantomime-macOS-dummy.m"; path = "../Pantomime-macOS/Pantomime-macOS-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99772FEB53B963BE14E71D054DAFF6E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC4EDBDDBE4F0036410AB2966AE4B3E /* Pantomime-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pantomime-iOS-dummy.m"; sourceTree = "<group>"; };
+		9CDD836E9E3E742A9830A9CA52548F67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SwiftyJSON-tvOS/Info.plist"; sourceTree = "<group>"; };
+		9ED69E8AD32212453F3363725862EB26 /* StringBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBufferedReader.swift; path = sources/StringBufferedReader.swift; sourceTree = "<group>"; };
+		9FD0EC4D445F50A68D82769F47210325 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A1643895CAF63466F6A4BB31C14589 /* Pantomime-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Pantomime-tvOS.modulemap"; path = "../Pantomime-tvOS/Pantomime-tvOS.modulemap"; sourceTree = "<group>"; };
+		A3F3960F3BD020B3A1851FFD19A52DC2 /* Pods-LazyMan Core iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LazyMan Core iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6E34375D1126D53B8F7470AD2FF5DE1 /* SwiftyJSON-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-macOS-umbrella.h"; path = "../SwiftyJSON-macOS/SwiftyJSON-macOS-umbrella.h"; sourceTree = "<group>"; };
+		A75721729F17F2B92615CF187706F7FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SwiftyJSON-macOS/Info.plist"; sourceTree = "<group>"; };
+		A83AEE0F18F75DF7228D5489B253B1CA /* Pods-LazyMan Core macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LazyMan Core macOS-dummy.m"; sourceTree = "<group>"; };
+		ADBDC66D64DCDCB2D7981B9F2CD5AFDA /* Pods-LazyMan Core iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyMan Core iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B32CE4A674C4E4364DF65230159C46DF /* Pods-LazyMan Core macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyMan Core macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B346A482F2252BB92C618E50C4E90A5D /* Pods-LazyMan Core macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LazyMan Core macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		B38A88E0776EAF5001831CAEFF93C9A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B716B6266610472D7FD092C1868D9D44 /* Pantomime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pantomime.framework; path = "Pantomime-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD792BEB5192A7CC5D7B8EEADB48E870 /* SwiftyJSON-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-tvOS-prefix.pch"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		BFDCBED94E9E31324FD302DC5BD6930E /* Pods-LazyMan Core iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyMan Core iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C0815BCF124B5D8158AE4EE46CE517BB /* SwiftyJSON-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftyJSON-iOS.modulemap"; sourceTree = "<group>"; };
+		C163ABB78C7D2A587951B6EB19DDC920 /* MediaSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaSegment.swift; path = sources/MediaSegment.swift; sourceTree = "<group>"; };
+		C23D20EA96C4FC818037FF11833261A9 /* SwiftyJSON-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftyJSON-macOS.xcconfig"; path = "../SwiftyJSON-macOS/SwiftyJSON-macOS.xcconfig"; sourceTree = "<group>"; };
+		C9916B013B1CBFA28EBA5964724A90DB /* Pods_LazyMan_Core_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LazyMan_Core_iOS.framework; path = "Pods-LazyMan Core iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4BE3E4E2877D8CEB93ECF7C5B1F6F2 /* Pods-LazyMan Core macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyMan Core macOS.release.xcconfig"; sourceTree = "<group>"; };
+		CCC833476D3E7D4F5A056E468203AE8F /* Pods-LazyMan Core macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LazyMan Core macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0E89B0A129556C9F0A3D1F4CE94418A /* Pods-LazyMan Core tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LazyMan Core tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		D21C1AC1050D3620F47DB76861B6C0DF /* SwiftyJSON-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-iOS-umbrella.h"; sourceTree = "<group>"; };
+		D68EFC0F4851E943C32A286A3377A5A5 /* NSURLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLExtension.swift; path = sources/NSURLExtension.swift; sourceTree = "<group>"; };
+		DA9479DE9EE6C30F2B77855B2C52721E /* Pods-LazyMan Core iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LazyMan Core iOS.modulemap"; sourceTree = "<group>"; };
+		E15A81C618DCCE2D9412EE2E6EC5530F /* SwiftyJSON-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftyJSON-tvOS-dummy.m"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS-dummy.m"; sourceTree = "<group>"; };
+		E3586C21998AF804C35BFC0B545DCEC3 /* SwiftyJSON-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-macOS-prefix.pch"; path = "../SwiftyJSON-macOS/SwiftyJSON-macOS-prefix.pch"; sourceTree = "<group>"; };
+		E4B31410D2438A262E72929C8EAE5A53 /* SwiftyJSON-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftyJSON-macOS.modulemap"; path = "../SwiftyJSON-macOS/SwiftyJSON-macOS.modulemap"; sourceTree = "<group>"; };
+		E739CA6B19A52AB362591FB4D24495BB /* SwiftyJSON-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftyJSON-iOS.xcconfig"; sourceTree = "<group>"; };
+		EAD9113350CCB834AC613BA2004B2458 /* Pantomime-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pantomime-tvOS-umbrella.h"; path = "../Pantomime-tvOS/Pantomime-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		EEAB48F13E2CD1BC2999224979023D45 /* Pods-LazyMan Core tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LazyMan Core tvOS-umbrella.h"; sourceTree = "<group>"; };
+		F13400C17A1A754A1BC2E6C566D6C415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCD1BD5B212DF32B161259DDB93137D /* Pods-LazyMan Core iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LazyMan Core iOS-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177BF91FA404C3660AF98209A1132299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5EA3DC141C44284F72F4ABB2AA86CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A34D8719EE77BAA427FC94BD5A3C5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A91768E3E51B62D3C8143FB9369C7A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B27005D1F12813CA99B99B9BC1B9FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65D7C7B4487EEB7A9695D5938E2F527 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7C37DB0158045F222DFB95E0AE4CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5DF47C87E0B1E61D1A441579908ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9D2C32B8957E7472571B195C1CDEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013C3D6FC47D737374669758C7B0850 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5258416C24DA0196A44D273093EAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE4AE8D825F504CBD40746DF83E9587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA5BDF79B8CE0648A41542A651748CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C6B2784A1AD000C0667756A994B214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9852E70622E742CB2732399CCB9A07CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4125135C6D903A9872EA8AFDE7EF2AD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A49007929668BFED791D68A71CBB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCD325CF4BE5D157285E6A40F6CFF56 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038AB1476E6FC1506024071E0C784C74 /* Pods-LazyMan Core macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C796154EF8039DAEB17968D8FC55368 /* Info.plist */,
+				875DEA36DD89BB0FD9F48A9DCEF90B7A /* Pods-LazyMan Core macOS.modulemap */,
+				CCC833476D3E7D4F5A056E468203AE8F /* Pods-LazyMan Core macOS-acknowledgements.markdown */,
+				B346A482F2252BB92C618E50C4E90A5D /* Pods-LazyMan Core macOS-acknowledgements.plist */,
+				A83AEE0F18F75DF7228D5489B253B1CA /* Pods-LazyMan Core macOS-dummy.m */,
+				0EB889DC63DBD8F66664258D413655FA /* Pods-LazyMan Core macOS-resources.sh */,
+				7557596C4A744A8FF77B584267F1C254 /* Pods-LazyMan Core macOS-umbrella.h */,
+				B32CE4A674C4E4364DF65230159C46DF /* Pods-LazyMan Core macOS.debug.xcconfig */,
+				CA4BE3E4E2877D8CEB93ECF7C5B1F6F2 /* Pods-LazyMan Core macOS.release.xcconfig */,
+			);
+			name = "Pods-LazyMan Core macOS";
+			path = "Target Support Files/Pods-LazyMan Core macOS";
+			sourceTree = "<group>";
+		};
+		33A5EBBCAC7A2CC77DF480391A80FBCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE408E16486F0BACB6482C6DC5F205A /* Pods-LazyMan Core iOS */,
+				038AB1476E6FC1506024071E0C784C74 /* Pods-LazyMan Core macOS */,
+				FE1A24C7067D14769B131F896335D5F7 /* Pods-LazyMan Core tvOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55D5BB0B413244251723A5493F45EE4B /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B38A88E0776EAF5001831CAEFF93C9A0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E9474CE87C6AA9A851AEC24006206CAA /* Frameworks */,
+				FCC1E480C3134A2D7B640E8EF6B5B16D /* Pods */,
+				A2D681355AC7B7ED71E7C35B06F31446 /* Products */,
+				33A5EBBCAC7A2CC77DF480391A80FBCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE408E16486F0BACB6482C6DC5F205A /* Pods-LazyMan Core iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C8FD72FF96CF4259D83BF241C6C40B2 /* Info.plist */,
+				DA9479DE9EE6C30F2B77855B2C52721E /* Pods-LazyMan Core iOS.modulemap */,
+				A3F3960F3BD020B3A1851FFD19A52DC2 /* Pods-LazyMan Core iOS-acknowledgements.markdown */,
+				0CE33F99A34CC3B886B6E139A99534CB /* Pods-LazyMan Core iOS-acknowledgements.plist */,
+				439017024A4D1B50C4F2A5C234A688D7 /* Pods-LazyMan Core iOS-dummy.m */,
+				68D39024C348F46B1ECD31B054CB9495 /* Pods-LazyMan Core iOS-resources.sh */,
+				FDCD1BD5B212DF32B161259DDB93137D /* Pods-LazyMan Core iOS-umbrella.h */,
+				BFDCBED94E9E31324FD302DC5BD6930E /* Pods-LazyMan Core iOS.debug.xcconfig */,
+				ADBDC66D64DCDCB2D7981B9F2CD5AFDA /* Pods-LazyMan Core iOS.release.xcconfig */,
+			);
+			name = "Pods-LazyMan Core iOS";
+			path = "Target Support Files/Pods-LazyMan Core iOS";
+			sourceTree = "<group>";
+		};
+		8F988FC0CD8DDBC7AD6D7D0266C950F6 /* Pantomime */ = {
+			isa = PBXGroup;
+			children = (
+				06BEE40A17D1DD8A8D9C77D7BD4D42D0 /* BufferedReader.swift */,
+				4A7A57E47D718C8A3786CC7DBF653F61 /* FileBufferedReader.swift */,
+				5483842566D9058373C40F15AF96AC8F /* ManifestBuilder.swift */,
+				4E399158FD8BD093A0E08F4AEDD0D5A4 /* MasterPlaylist.swift */,
+				70BE7A0DB1B86F123CD6EAE1AB6D63CF /* MediaPlaylist.swift */,
+				C163ABB78C7D2A587951B6EB19DDC920 /* MediaSegment.swift */,
+				D68EFC0F4851E943C32A286A3377A5A5 /* NSURLExtension.swift */,
+				674ACC2D184396172148EE3476BD6C45 /* ReaderBuilder.swift */,
+				5EB69275434EF44C82E1F190334B0327 /* StreamReader.swift */,
+				9ED69E8AD32212453F3363725862EB26 /* StringBufferedReader.swift */,
+				6E86BD6A5505BF6E56726255822D13CA /* StringExtensions.swift */,
+				24044B29F1512D14901226881D6D0E7A /* URLBufferedReader.swift */,
+				C927E3AC366BE2DC4F2FE7F68C4F8C8D /* Support Files */,
+			);
+			name = Pantomime;
+			path = Pantomime;
+			sourceTree = "<group>";
+		};
+		930D01651513A25219979212A8E8D946 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0B80E690BA03532FCC90C892C432E30C /* SwiftyJSON.swift */,
+				ABE528017B91EF4DBE6CFBFC0176625E /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		A2D681355AC7B7ED71E7C35B06F31446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDFD9B020DAD3778D4473E7909E11B4 /* Pantomime.framework */,
+				B716B6266610472D7FD092C1868D9D44 /* Pantomime.framework */,
+				25F6CDE76EEC8E8623884E3505350825 /* Pantomime.framework */,
+				C9916B013B1CBFA28EBA5964724A90DB /* Pods_LazyMan_Core_iOS.framework */,
+				7231639B075DBCC475F41D3B151EE387 /* Pods_LazyMan_Core_macOS.framework */,
+				42A15560403C9EA88C4252BF881C475D /* Pods_LazyMan_Core_tvOS.framework */,
+				672C69BE3F9796523F6A92DA4D021E44 /* SwiftyJSON.framework */,
+				7F14005AD3F7A16EC576647E631D7C10 /* SwiftyJSON.framework */,
+				8B4E5B48359CD779F5A8C5F55E0EF12A /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92424381BD60E468F098B2B23A5EECB /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				48233FC070FA1CADC1C3A92C3D3948A1 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		ABE528017B91EF4DBE6CFBFC0176625E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CDD836E9E3E742A9830A9CA52548F67 /* Info.plist */,
+				9FD0EC4D445F50A68D82769F47210325 /* Info.plist */,
+				A75721729F17F2B92615CF187706F7FE /* Info.plist */,
+				C0815BCF124B5D8158AE4EE46CE517BB /* SwiftyJSON-iOS.modulemap */,
+				E739CA6B19A52AB362591FB4D24495BB /* SwiftyJSON-iOS.xcconfig */,
+				09548C533B9D26D6C4AAD6202E84D829 /* SwiftyJSON-iOS-dummy.m */,
+				028AE46E5B46559734C0BB874716D4B8 /* SwiftyJSON-iOS-prefix.pch */,
+				D21C1AC1050D3620F47DB76861B6C0DF /* SwiftyJSON-iOS-umbrella.h */,
+				E4B31410D2438A262E72929C8EAE5A53 /* SwiftyJSON-macOS.modulemap */,
+				C23D20EA96C4FC818037FF11833261A9 /* SwiftyJSON-macOS.xcconfig */,
+				49486BDE3C68EAF429102BC0E9B344FC /* SwiftyJSON-macOS-dummy.m */,
+				E3586C21998AF804C35BFC0B545DCEC3 /* SwiftyJSON-macOS-prefix.pch */,
+				A6E34375D1126D53B8F7470AD2FF5DE1 /* SwiftyJSON-macOS-umbrella.h */,
+				06E73CAE969E2B37AA6731DD132EBD25 /* SwiftyJSON-tvOS.modulemap */,
+				6347F0F88E27188DE693E59A72F07720 /* SwiftyJSON-tvOS.xcconfig */,
+				E15A81C618DCCE2D9412EE2E6EC5530F /* SwiftyJSON-tvOS-dummy.m */,
+				BD792BEB5192A7CC5D7B8EEADB48E870 /* SwiftyJSON-tvOS-prefix.pch */,
+				167D99A92B540FC505BE9FF5E2F2773B /* SwiftyJSON-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON-iOS";
+			sourceTree = "<group>";
+		};
+		C927E3AC366BE2DC4F2FE7F68C4F8C8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35F70D19ECB8F5F5FC4FA45BBE38BD18 /* Info.plist */,
+				F13400C17A1A754A1BC2E6C566D6C415 /* Info.plist */,
+				3D1198E4DE2EBC4D42293CCEF802A66E /* Info.plist */,
+				7CCB0356EFE865A2FA25AA012EDD1E67 /* Pantomime-iOS.modulemap */,
+				6EB4C3834BC48BF1E6B68D8042C1E4AF /* Pantomime-iOS.xcconfig */,
+				9AC4EDBDDBE4F0036410AB2966AE4B3E /* Pantomime-iOS-dummy.m */,
+				56F0300EA831D998F95733C27B128F60 /* Pantomime-iOS-prefix.pch */,
+				3FA41DE4E2260E1D8923A4737D062E7F /* Pantomime-iOS-umbrella.h */,
+				68A2CBDFCAAEA7184D2659A64529EE6A /* Pantomime-macOS.modulemap */,
+				773F610F170AA14E308523928A32156A /* Pantomime-macOS.xcconfig */,
+				8BF22EE95402AA96092F11B712B7E863 /* Pantomime-macOS-dummy.m */,
+				45E29E617B1DB3AFDDAB9E4E47F69858 /* Pantomime-macOS-prefix.pch */,
+				15CB9725505B43FDBC6016ABB1F20D16 /* Pantomime-macOS-umbrella.h */,
+				A3A1643895CAF63466F6A4BB31C14589 /* Pantomime-tvOS.modulemap */,
+				2E7C7F27CDDCCDE26315D5B75C447517 /* Pantomime-tvOS.xcconfig */,
+				6393F6A00F7ED49A29945D16BC51FEC0 /* Pantomime-tvOS-dummy.m */,
+				503E403F4ADCA7077A65AF0E4156E388 /* Pantomime-tvOS-prefix.pch */,
+				EAD9113350CCB834AC613BA2004B2458 /* Pantomime-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pantomime-iOS";
+			sourceTree = "<group>";
+		};
+		E9474CE87C6AA9A851AEC24006206CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F436BBC45CEF494D3C1224DC7D294486 /* iOS */,
+				A92424381BD60E468F098B2B23A5EECB /* OS X */,
+				55D5BB0B413244251723A5493F45EE4B /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F436BBC45CEF494D3C1224DC7D294486 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7461AAFB7A771BCEC6E4E09204991FB5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCC1E480C3134A2D7B640E8EF6B5B16D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F988FC0CD8DDBC7AD6D7D0266C950F6 /* Pantomime */,
+				930D01651513A25219979212A8E8D946 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE1A24C7067D14769B131F896335D5F7 /* Pods-LazyMan Core tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				99772FEB53B963BE14E71D054DAFF6E0 /* Info.plist */,
+				51DC9BA03F838BFA7B3C450875497462 /* Pods-LazyMan Core tvOS.modulemap */,
+				01850B58DF643C241F4556F372914EB2 /* Pods-LazyMan Core tvOS-acknowledgements.markdown */,
+				D0E89B0A129556C9F0A3D1F4CE94418A /* Pods-LazyMan Core tvOS-acknowledgements.plist */,
+				773DF91EA819EE4A15C4B293E8CA81CF /* Pods-LazyMan Core tvOS-dummy.m */,
+				22AA3AB9AFCE772A5FC54FAA3BF3717E /* Pods-LazyMan Core tvOS-resources.sh */,
+				EEAB48F13E2CD1BC2999224979023D45 /* Pods-LazyMan Core tvOS-umbrella.h */,
+				07FFFF354B57A0EE99BE79043F42536A /* Pods-LazyMan Core tvOS.debug.xcconfig */,
+				3B4C1842B29C92384689A021272F2791 /* Pods-LazyMan Core tvOS.release.xcconfig */,
+			);
+			name = "Pods-LazyMan Core tvOS";
+			path = "Target Support Files/Pods-LazyMan Core tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EDCD1BE4F2F64B6A76077AAFCFFC969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51910ADF9C2E2FAE12B59DCF8090DBBA /* Pantomime-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF2946ED03F5AF41CDB3FB8EDE63E1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC631E5DD67B28CD6CCD4AA77545C768 /* Pods-LazyMan Core iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34419CA43881B78C631C4687741AAEFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F27DE8A32496B7427E14D18D70E5381 /* Pantomime-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DE243497E3D854D2C0E80C75EC3A75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F1492EFEDB3D73877C464FD7F972D5 /* SwiftyJSON-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627A879F53A22FBC741BD0C76D2DB51A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D89D62D95FFB905B47B0A50DD0C3348 /* SwiftyJSON-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B16B9E5ECE4C846CD2CAF0AB9A7962 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB68121E4DDEFC69FF9C34CF07592D9 /* Pods-LazyMan Core macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1ED4FED9CA48AFE5C5FC5D2C36CDB8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37FE1AA11C9D726EB8F1D8A9B8F7F7D /* Pantomime-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BE60C2EC9E8A056CD06BB4652EEB79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA3F2742AAA2C2080AF9D3FA1D603B5 /* SwiftyJSON-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB423758DA5674128143CC1BFE88D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24269A3EB0B6E68A4184FE5AE3B20C7 /* Pods-LazyMan Core tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B172261AEC35D3EB11FBE065938A96C /* Pods-LazyMan Core macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7DF3EFB5D1997837CCED10A87CC393 /* Build configuration list for PBXNativeTarget "Pods-LazyMan Core macOS" */;
+			buildPhases = (
+				87B3C00A0D56938B3E4679D231000744 /* Sources */,
+				1A34D8719EE77BAA427FC94BD5A3C5E8 /* Frameworks */,
+				A7B16B9E5ECE4C846CD2CAF0AB9A7962 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B034A9903FB879B024E40B3002950BC /* PBXTargetDependency */,
+				84F932BF0E78A74F03CF059D77AC12EC /* PBXTargetDependency */,
+			);
+			name = "Pods-LazyMan Core macOS";
+			productName = "Pods-LazyMan Core macOS";
+			productReference = 7231639B075DBCC475F41D3B151EE387 /* Pods_LazyMan_Core_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		548884AAB7EB4472FB1F0FAED128B3DF /* SwiftyJSON-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7FA040F762197A61F654AE6CEA7B29 /* Build configuration list for PBXNativeTarget "SwiftyJSON-tvOS" */;
+			buildPhases = (
+				C6B91C5C462B23FD93753D0B20E57806 /* Sources */,
+				5B5258416C24DA0196A44D273093EAD3 /* Frameworks */,
+				38DE243497E3D854D2C0E80C75EC3A75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-tvOS";
+			productName = "SwiftyJSON-tvOS";
+			productReference = 672C69BE3F9796523F6A92DA4D021E44 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E59693963E99080AC7F1B847458258F /* SwiftyJSON-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9448B7F5F82D1E1CA9638D923F679158 /* Build configuration list for PBXNativeTarget "SwiftyJSON-iOS" */;
+			buildPhases = (
+				7F61E4E9A62CC7BE85DD46D2D324B7E6 /* Sources */,
+				4D7C37DB0158045F222DFB95E0AE4CCD /* Frameworks */,
+				C3BE60C2EC9E8A056CD06BB4652EEB79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-iOS";
+			productName = "SwiftyJSON-iOS";
+			productReference = 8B4E5B48359CD779F5A8C5F55E0EF12A /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E3F4DDC6CAA5B0B10C0C631953CED75 /* Pantomime-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B6CD5B1AAF08AA257F9330B0FFCA63 /* Build configuration list for PBXNativeTarget "Pantomime-iOS" */;
+			buildPhases = (
+				E08969C8703656B3ED2FFC4160ADA520 /* Sources */,
+				177BF91FA404C3660AF98209A1132299 /* Frameworks */,
+				34419CA43881B78C631C4687741AAEFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pantomime-iOS";
+			productName = "Pantomime-iOS";
+			productReference = 25F6CDE76EEC8E8623884E3505350825 /* Pantomime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9495E3198EB6538B4DA07916EA157E08 /* Pantomime-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62400D5E20BF60650D90819EA63133C1 /* Build configuration list for PBXNativeTarget "Pantomime-macOS" */;
+			buildPhases = (
+				2549043C0D16235676103A1475DD6C39 /* Sources */,
+				4F9D2C32B8957E7472571B195C1CDEE7 /* Frameworks */,
+				B1ED4FED9CA48AFE5C5FC5D2C36CDB8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pantomime-macOS";
+			productName = "Pantomime-macOS";
+			productReference = 3CDFD9B020DAD3778D4473E7909E11B4 /* Pantomime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		989357A972D882A167A10A7B79CD09CD /* Pods-LazyMan Core tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD15F17458BEF421AABEA412D6170A0 /* Build configuration list for PBXNativeTarget "Pods-LazyMan Core tvOS" */;
+			buildPhases = (
+				1F715A9786D463AB8121F719EE3B8C1C /* Sources */,
+				9852E70622E742CB2732399CCB9A07CB /* Frameworks */,
+				D1CB423758DA5674128143CC1BFE88D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A6BEB62F20D4A98389331B5F680240 /* PBXTargetDependency */,
+				A9E1DC8B0268670C0C5E48C661ED60A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LazyMan Core tvOS";
+			productName = "Pods-LazyMan Core tvOS";
+			productReference = 42A15560403C9EA88C4252BF881C475D /* Pods_LazyMan_Core_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB6ABFDB7405B7FA9F185BE67F2C30B8 /* Pantomime-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9527C1D0B14E385DF196F31218D7075 /* Build configuration list for PBXNativeTarget "Pantomime-tvOS" */;
+			buildPhases = (
+				E8B5C3F1B261865327DDA4229CA4534A /* Sources */,
+				3B27005D1F12813CA99B99B9BC1B9FCD /* Frameworks */,
+				0EDCD1BE4F2F64B6A76077AAFCFFC969 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pantomime-tvOS";
+			productName = "Pantomime-tvOS";
+			productReference = B716B6266610472D7FD092C1868D9D44 /* Pantomime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8FB5D6D9EA6EECD5A7875B334183424 /* SwiftyJSON-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206A737A2AF12052EDA3A06728036FE3 /* Build configuration list for PBXNativeTarget "SwiftyJSON-macOS" */;
+			buildPhases = (
+				3AAE0A56C99B7BDF56C2163CDA17858B /* Sources */,
+				E2A49007929668BFED791D68A71CBB57 /* Frameworks */,
+				627A879F53A22FBC741BD0C76D2DB51A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-macOS";
+			productName = "SwiftyJSON-macOS";
+			productReference = 7F14005AD3F7A16EC576647E631D7C10 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD5A8790D329876DBC0349CF51B4408D /* Pods-LazyMan Core iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F5A894D8BE5D5B0174EB98609E026E /* Build configuration list for PBXNativeTarget "Pods-LazyMan Core iOS" */;
+			buildPhases = (
+				CDCF3434CBD969244B3E19ABC012823F /* Sources */,
+				5FA5BDF79B8CE0648A41542A651748CC /* Frameworks */,
+				1FF2946ED03F5AF41CDB3FB8EDE63E1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B6BFD22C779B180CF52864F18B96DD1 /* PBXTargetDependency */,
+				A0EB4A188419B4DBC0A7297E1EB1C7AD /* PBXTargetDependency */,
+			);
+			name = "Pods-LazyMan Core iOS";
+			productName = "Pods-LazyMan Core iOS";
+			productReference = C9916B013B1CBFA28EBA5964724A90DB /* Pods_LazyMan_Core_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A2D681355AC7B7ED71E7C35B06F31446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3F4DDC6CAA5B0B10C0C631953CED75 /* Pantomime-iOS */,
+				9495E3198EB6538B4DA07916EA157E08 /* Pantomime-macOS */,
+				BB6ABFDB7405B7FA9F185BE67F2C30B8 /* Pantomime-tvOS */,
+				FD5A8790D329876DBC0349CF51B4408D /* Pods-LazyMan Core iOS */,
+				0B172261AEC35D3EB11FBE065938A96C /* Pods-LazyMan Core macOS */,
+				989357A972D882A167A10A7B79CD09CD /* Pods-LazyMan Core tvOS */,
+				7E59693963E99080AC7F1B847458258F /* SwiftyJSON-iOS */,
+				D8FB5D6D9EA6EECD5A7875B334183424 /* SwiftyJSON-macOS */,
+				548884AAB7EB4472FB1F0FAED128B3DF /* SwiftyJSON-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F715A9786D463AB8121F719EE3B8C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BDBF949BE1A5747388889D60829BD5 /* Pods-LazyMan Core tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2549043C0D16235676103A1475DD6C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9962ECD77EBE2A0A29CD1B28D0500EE0 /* BufferedReader.swift in Sources */,
+				9614F90CE911F6DFAFE46676A61EAB9B /* FileBufferedReader.swift in Sources */,
+				F3527BB35CC2984B7AEEF3C19DA052B8 /* ManifestBuilder.swift in Sources */,
+				CE3FDE42E553D91F87B0190C3C581701 /* MasterPlaylist.swift in Sources */,
+				C4BD8AEFB0EF4C0E486B2FE6D0D0551E /* MediaPlaylist.swift in Sources */,
+				542777C053FAB4DEF2B73D78D1F1B32F /* MediaSegment.swift in Sources */,
+				E2BBF18610BDF0AC982ADAF9B992EB8F /* NSURLExtension.swift in Sources */,
+				DAADF416C9894449B60E24F901B7DD78 /* Pantomime-macOS-dummy.m in Sources */,
+				17C688B753F7600E8525771FE0AF7DF2 /* ReaderBuilder.swift in Sources */,
+				95F8BAE46630169D3A0E273858E76D8C /* StreamReader.swift in Sources */,
+				3DAA57B9675A68A5BA8E6ED90D3CD689 /* StringBufferedReader.swift in Sources */,
+				59740F66C07679249CE3DEA80DC9F7EC /* StringExtensions.swift in Sources */,
+				432C485C4F7C32D031E0B8DFAA82C8E5 /* URLBufferedReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAE0A56C99B7BDF56C2163CDA17858B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD93FD70D9336CF4454835881A7D83D /* SwiftyJSON-macOS-dummy.m in Sources */,
+				6F2E8798DECAF1BCFE6CCC066B02EA58 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F61E4E9A62CC7BE85DD46D2D324B7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A10A1AEC703F38E6731A0F0E3E84853 /* SwiftyJSON-iOS-dummy.m in Sources */,
+				6DF929DC7BF60545F47202D25DC1CAAB /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B3C00A0D56938B3E4679D231000744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD262E7BDC7849ED918341C5833C109B /* Pods-LazyMan Core macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B91C5C462B23FD93753D0B20E57806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A973D508F8B6B6E543C31F1078356B3 /* SwiftyJSON-tvOS-dummy.m in Sources */,
+				22C98F5B65DBF9017080094F6FF11250 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF3434CBD969244B3E19ABC012823F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B123418913D9EAC777A75F0F070898 /* Pods-LazyMan Core iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08969C8703656B3ED2FFC4160ADA520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043A07C9BD3E676AD6CF07869D34C318 /* BufferedReader.swift in Sources */,
+				5AB00A15111BC63E71BBE9DB5B703A67 /* FileBufferedReader.swift in Sources */,
+				EC19C835D9ED32E13EB2FF979CEC674E /* ManifestBuilder.swift in Sources */,
+				6C768C35B75E86E785FF068ABC9A94BB /* MasterPlaylist.swift in Sources */,
+				AE3FBAE73FC38A9494347EBD681D28A1 /* MediaPlaylist.swift in Sources */,
+				1D0B67374F6D3F52FB6B1C77A989B437 /* MediaSegment.swift in Sources */,
+				A75A7DCED2762ACC1711A54C029A5FC2 /* NSURLExtension.swift in Sources */,
+				FB3E8E2732F58B1D995B8A860C03A1BC /* Pantomime-iOS-dummy.m in Sources */,
+				DB50C0B20E7EC65AF7B2943DDCF1C4EF /* ReaderBuilder.swift in Sources */,
+				9C49D0557A6EBE1DC2B0CE6039C30C54 /* StreamReader.swift in Sources */,
+				7275D731288F38744595607CBC10C88F /* StringBufferedReader.swift in Sources */,
+				28C1892BC703E9FCB4FF503EE6F58ECE /* StringExtensions.swift in Sources */,
+				AF571634AEDFAF10B4A6F82769612F81 /* URLBufferedReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B5C3F1B261865327DDA4229CA4534A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA9004AB08BC180AD581395A254AD7D /* BufferedReader.swift in Sources */,
+				A63618F548D1F3BD35981D2D1E563E30 /* FileBufferedReader.swift in Sources */,
+				83E6E3F02531659E47FE108CE03E6DBD /* ManifestBuilder.swift in Sources */,
+				E0B4C403146463ABDC87C3C87BFA5FD3 /* MasterPlaylist.swift in Sources */,
+				0B991BD71A841048E21FFCBB73048966 /* MediaPlaylist.swift in Sources */,
+				9A57BA2D39EB9B639B08DF766E59DCC0 /* MediaSegment.swift in Sources */,
+				14599C2FB3139742C1E44B80F08AFA13 /* NSURLExtension.swift in Sources */,
+				0D461AB97A910B72045C4847076E474B /* Pantomime-tvOS-dummy.m in Sources */,
+				D167D4A4FF8B7C94ACB80DCD3ABF2C8B /* ReaderBuilder.swift in Sources */,
+				EEF6507B775F716FBCF58F3345FDF8A9 /* StreamReader.swift in Sources */,
+				E272882839E4F65FE4A51EB6DD01D0E3 /* StringBufferedReader.swift in Sources */,
+				2642A76FCA58952FCF59C5C5A96A4A52 /* StringExtensions.swift in Sources */,
+				3B2904B9FB681C105C5611EF6F9E0CE6 /* URLBufferedReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B034A9903FB879B024E40B3002950BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pantomime-macOS";
+			target = 9495E3198EB6538B4DA07916EA157E08 /* Pantomime-macOS */;
+			targetProxy = 9EF69053F6BC0D2B11A477129A0CF1B4 /* PBXContainerItemProxy */;
+		};
+		5B6BFD22C779B180CF52864F18B96DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pantomime-iOS";
+			target = 8E3F4DDC6CAA5B0B10C0C631953CED75 /* Pantomime-iOS */;
+			targetProxy = 9C7EC7989ACB5FD8A24FA322B48D13C5 /* PBXContainerItemProxy */;
+		};
+		84F932BF0E78A74F03CF059D77AC12EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-macOS";
+			target = D8FB5D6D9EA6EECD5A7875B334183424 /* SwiftyJSON-macOS */;
+			targetProxy = 01388BAC71A580A654F2412BE8A2917A /* PBXContainerItemProxy */;
+		};
+		A0EB4A188419B4DBC0A7297E1EB1C7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-iOS";
+			target = 7E59693963E99080AC7F1B847458258F /* SwiftyJSON-iOS */;
+			targetProxy = E046678E76CAD7AEBA16CDB00BCE7DC1 /* PBXContainerItemProxy */;
+		};
+		A9E1DC8B0268670C0C5E48C661ED60A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-tvOS";
+			target = 548884AAB7EB4472FB1F0FAED128B3DF /* SwiftyJSON-tvOS */;
+			targetProxy = DFFCB9AB20776EDF9CC30D301BF36631 /* PBXContainerItemProxy */;
+		};
+		F9A6BEB62F20D4A98389331B5F680240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pantomime-tvOS";
+			target = BB6ABFDB7405B7FA9F185BE67F2C30B8 /* Pantomime-tvOS */;
+			targetProxy = 205BE44DCC1A8AC4F8493552F560851D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00FF96A985661DEDE04ED026B84AA835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6347F0F88E27188DE693E59A72F07720 /* SwiftyJSON-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0670520552DDD17220FEFFEDF8EE291C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23D20EA96C4FC818037FF11833261A9 /* SwiftyJSON-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-macOS/SwiftyJSON-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-macOS/SwiftyJSON-macOS.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ECF677325CFB4CCBD0762B9B1884200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		15A34CC1DD2939ABEDBA96B77B0AE44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773F610F170AA14E308523928A32156A /* Pantomime-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pantomime-macOS/Pantomime-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pantomime-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pantomime-macOS/Pantomime-macOS.modulemap";
+				PRODUCT_NAME = Pantomime;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20C0D589CF580D3F7498C56DDE7C2E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB4C3834BC48BF1E6B68D8042C1E4AF /* Pantomime-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pantomime-iOS/Pantomime-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pantomime-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pantomime-iOS/Pantomime-iOS.modulemap";
+				PRODUCT_NAME = Pantomime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22DF85231CF81F30637B458CE847FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FFFF354B57A0EE99BE79043F42536A /* Pods-LazyMan Core tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LazyMan Core tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LazyMan Core tvOS/Pods-LazyMan Core tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LazyMan_Core_tvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33312E880725CB24293D19BEF75B0FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7C7F27CDDCCDE26315D5B75C447517 /* Pantomime-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pantomime-tvOS/Pantomime-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pantomime-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pantomime-tvOS/Pantomime-tvOS.modulemap";
+				PRODUCT_NAME = Pantomime;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33665BA8D60158BEF4BF34BF9615FE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4BE3E4E2877D8CEB93ECF7C5B1F6F2 /* Pods-LazyMan Core macOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-LazyMan Core macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-LazyMan Core macOS/Pods-LazyMan Core macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LazyMan_Core_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33691DBFEED47D6DCF0E5548732FF2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4DBBF31F22B25C640D799516F9693384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E739CA6B19A52AB362591FB4D24495BB /* SwiftyJSON-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D512929DE320B9DB5E874028D185A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDCBED94E9E31324FD302DC5BD6930E /* Pods-LazyMan Core iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LazyMan Core iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LazyMan Core iOS/Pods-LazyMan Core iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LazyMan_Core_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F470DF65FC90C2FE3A388A7497B4242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB4C3834BC48BF1E6B68D8042C1E4AF /* Pantomime-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pantomime-iOS/Pantomime-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pantomime-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pantomime-iOS/Pantomime-iOS.modulemap";
+				PRODUCT_NAME = Pantomime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75059908B6F08C169C8C698A4B0961C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6347F0F88E27188DE693E59A72F07720 /* SwiftyJSON-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E78F6091B31B1C5BEA81240DC7B2BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23D20EA96C4FC818037FF11833261A9 /* SwiftyJSON-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-macOS/SwiftyJSON-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-macOS/SwiftyJSON-macOS.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3C4D0D5025FC7AF2E140789E75E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7C7F27CDDCCDE26315D5B75C447517 /* Pantomime-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pantomime-tvOS/Pantomime-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pantomime-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pantomime-tvOS/Pantomime-tvOS.modulemap";
+				PRODUCT_NAME = Pantomime;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A18E00655C9A80B071A05CAFB3D6F326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4C1842B29C92384689A021272F2791 /* Pods-LazyMan Core tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LazyMan Core tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LazyMan Core tvOS/Pods-LazyMan Core tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LazyMan_Core_tvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB11B0ADD6360747FE8A0DF5057B8576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32CE4A674C4E4364DF65230159C46DF /* Pods-LazyMan Core macOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-LazyMan Core macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-LazyMan Core macOS/Pods-LazyMan Core macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LazyMan_Core_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACA5796FDA965B9A19D4F383954886D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E739CA6B19A52AB362591FB4D24495BB /* SwiftyJSON-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3A6070B26D2751AA57BCAA1DC4F2B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773F610F170AA14E308523928A32156A /* Pantomime-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pantomime-macOS/Pantomime-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pantomime-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pantomime-macOS/Pantomime-macOS.modulemap";
+				PRODUCT_NAME = Pantomime;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1BF2048FC893C3E1F9609EB675A404A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBDC66D64DCDCB2D7981B9F2CD5AFDA /* Pods-LazyMan Core iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LazyMan Core iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LazyMan Core iOS/Pods-LazyMan Core iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LazyMan_Core_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B6CD5B1AAF08AA257F9330B0FFCA63 /* Build configuration list for PBXNativeTarget "Pantomime-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C0D589CF580D3F7498C56DDE7C2E46 /* Debug */,
+				6F470DF65FC90C2FE3A388A7497B4242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206A737A2AF12052EDA3A06728036FE3 /* Build configuration list for PBXNativeTarget "SwiftyJSON-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E78F6091B31B1C5BEA81240DC7B2BB3 /* Debug */,
+				0670520552DDD17220FEFFEDF8EE291C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33691DBFEED47D6DCF0E5548732FF2D9 /* Debug */,
+				0ECF677325CFB4CCBD0762B9B1884200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD15F17458BEF421AABEA412D6170A0 /* Build configuration list for PBXNativeTarget "Pods-LazyMan Core tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DF85231CF81F30637B458CE847FE9A /* Debug */,
+				A18E00655C9A80B071A05CAFB3D6F326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7DF3EFB5D1997837CCED10A87CC393 /* Build configuration list for PBXNativeTarget "Pods-LazyMan Core macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB11B0ADD6360747FE8A0DF5057B8576 /* Debug */,
+				33665BA8D60158BEF4BF34BF9615FE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F5A894D8BE5D5B0174EB98609E026E /* Build configuration list for PBXNativeTarget "Pods-LazyMan Core iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D512929DE320B9DB5E874028D185A79 /* Debug */,
+				D1BF2048FC893C3E1F9609EB675A404A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62400D5E20BF60650D90819EA63133C1 /* Build configuration list for PBXNativeTarget "Pantomime-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A34CC1DD2939ABEDBA96B77B0AE44E /* Debug */,
+				B3A6070B26D2751AA57BCAA1DC4F2B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9448B7F5F82D1E1CA9638D923F679158 /* Build configuration list for PBXNativeTarget "SwiftyJSON-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBBF31F22B25C640D799516F9693384 /* Debug */,
+				ACA5796FDA965B9A19D4F383954886D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9527C1D0B14E385DF196F31218D7075 /* Build configuration list for PBXNativeTarget "Pantomime-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3C4D0D5025FC7AF2E140789E75E0B7 /* Debug */,
+				33312E880725CB24293D19BEF75B0FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7FA040F762197A61F654AE6CEA7B29 /* Build configuration list for PBXNativeTarget "SwiftyJSON-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75059908B6F08C169C8C698A4B0961C8 /* Debug */,
+				00FF96A985661DEDE04ED026B84AA835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
